@@ -31,7 +31,7 @@ CREATE TABLE HMDApub2009
 (
 	AsOfDate varchar(4),
 	RespondentID varchar(10),
-	Respondend_Name varchar(50),
+	RespondentName varchar(60),
 	AgencyCode varchar(1),
 	LoanType varchar(1),
 	PropertyType varchar(1),
@@ -42,9 +42,9 @@ CREATE TABLE HMDApub2009
 	ActionType varchar(1),
 	MSAOfProperty varchar(5),
 	StateCode varchar(2),
-	State_Name varchar(15),
+	StateName varchar(15),
 	CountyCode varchar(3),
-	Count_Name varchar(50),
+	CountyName varchar(60),
 	CensusTractNumber varchar(7),
 	ApplicantEthnicity varchar(1),
 	CoApplicantEthnicity varchar(1),
@@ -86,7 +86,7 @@ CREATE TABLE HMDApub2010
 (
 	AsOfDate varchar(4),
 	RespondentID varchar(10),
-	Respondent_Name varchar(50),
+	RespondentName varchar(60),
 	AgencyCode varchar(1),
 	LoanType varchar(1),
 	PropertyType varchar(1),
@@ -97,12 +97,12 @@ CREATE TABLE HMDApub2010
 	ActionType varchar(1),
 	MSAOfProperty varchar(5),
 	StateCode varchar(2),
-	StatName varchar(20),
+	StateName varchar(2),
 	CountyCode varchar(3),
 	CountyName varchar(50),
 	CensusTractNumber varchar(7),
 	ApplicantEthnicity varchar(1),
-	Co_ApplicantEthnicity varchar(1),
+	CoApplicantEthnicity varchar(1),
 	ApplicantRace1 varchar(1),
 	ApplicantRace2 varchar(1),
 	ApplicantRace3 varchar(1),
@@ -140,7 +140,7 @@ CREATE TABLE HMDApub2011
 (
 	AsOfDate varchar(4),
 	RespondentID varchar(10),
-	Respondent_Name varchar(60),
+	RespondentName varchar(60),
 	AgencyCode varchar(1),
 	LoanType varchar(1),
 	PropertyType varchar(1),
@@ -151,12 +151,12 @@ CREATE TABLE HMDApub2011
 	ActionType varchar(1),
 	MSAOfProperty varchar(5),
 	StateCode varchar(2),
-	StatName varchar(20),
+	StateName varchar(20),
 	CountyCode varchar(3),
 	CountyName varchar(50),
 	CensusTractNumber varchar(7),
 	ApplicantEthnicity varchar(1),
-	Co_ApplicantEthnicity varchar(1),
+	CoApplicantEthnicity varchar(1),
 	ApplicantRace1 varchar(1),
 	ApplicantRace2 varchar(1),
 	ApplicantRace3 varchar(1),
@@ -196,7 +196,7 @@ CREATE TABLE HMDApub2012
 (
 	AsOfDate varchar(4),
 	RespondentID varchar(10),
-	Respondent_Name varchar(50),
+	RespondentName varchar(60),
 	AgencyCode varchar(1),
 	LoanType varchar(1),
 	PropertyType varchar(1),
@@ -207,7 +207,7 @@ CREATE TABLE HMDApub2012
 	ActionType varchar(1),
 	MSAOfProperty varchar(5),
 	StateCode varchar(2),
-	StatName varchar(20),
+	StateName varchar(20),
 	CountyCode varchar(3),
 	CountyName varchar(50),
 	CensusTractNumber varchar(7),
@@ -250,7 +250,7 @@ CREATE TABLE HMDApub2013
 (
 	AsOfDate varchar(4),
 	RespondentID varchar(10),
-	Respondent_Name varchar(50),
+	RespondentName varchar(60),
 	AgencyCode varchar(1),
 	LoanType varchar(1),
 	PropertyType varchar(1),
@@ -261,12 +261,12 @@ CREATE TABLE HMDApub2013
 	ActionType varchar(1),
 	MSAOfProperty varchar(5),
 	StateCode varchar(2),
-	StatName varchar(20),
+	StateName varchar(20),
 	CountyCode varchar(3),
 	CountyName varchar(50),
 	CensusTractNumber varchar(7),
 	ApplicantEthnicity varchar(1),
-	Co_ApplicantEthnicity varchar(1),
+	CoApplicantEthnicity varchar(1),
 	ApplicantRace1 varchar(1),
 	ApplicantRace2 varchar(1),
 	ApplicantRace3 varchar(1),
@@ -304,7 +304,7 @@ CREATE TABLE HMDApub2013
 -- LOAD DATA INTO TABLES CREATED ABOVE 
 --------
 -- LAR Data -- 
-SET CLIENT_ENCODING = 'LATIN1'
+SET CLIENT_ENCODING = 'LATIN1';
 copy HMDAPub2009 from '/users/roellk/desktop/HMDA/data2/HMDA2009Pub.txt' csv delimiter '|'; commit;  
 copy HMDAPub2010 from '/Users/roellk/Desktop/HMDA/data2/HMDA2010Pub.txt' csv delimiter '|'; commit; 
 copy HMDAPub2011 from '/users/roellk/desktop/HMDA/data2/HMDA2011Pub.txt' csv delimiter '|'; commit;  
