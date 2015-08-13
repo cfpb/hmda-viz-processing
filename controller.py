@@ -19,23 +19,24 @@ build_msa = build() #instantiate the build object for file path, jekyll files
 
 #List of Alabama MSAs for test state case
 #AL_MSAs = ['45180', '45980', '11500', '10760', '42460', '13820', '19460', '23460', '46740', '17980', '12220', '20020', '18980', '33860', '46260', '33660', '19300', '22840', '21460','10700','21640','42820','26620','22520','46220']
-AL_MSAs = ['19740']
+AL_MSAs = ['33340']
 
 #report lists for testing
 #selector.reports_to_run = ['A B']
 #selector.reports_to_run = ['A 11-2']
 #selector.reports_to_run = ['D 4-1', 'D 4-2', 'D 4-3', 'D 4-4', 'D 4-6', 'D 4-7']
-#selector.reports_to_run = ['A 5-1', 'A 5-2', 'A 5-3', 'A 5-4', 'A 5-5', 'A 5-7']
+selector.reports_to_run = ['A 5-1', 'A 5-2', 'A 5-3', 'A 5-4', 'A 5-5', 'A 5-7']
 #selector.reports_to_run = ['A 7-1', 'A 7-2', 'A 7-3', 'A 7-4', 'A 7-5', 'A 7-6', 'A 7-7']
 #selector.reports_to_run = ['A 8-1', 'A 8-2', 'A 8-3', 'A 8-4', 'A 8-5', 'A 8-6', 'A 8-7']
 #selector.reports_to_run = ['A 11-1', 'A 11-2', 'A 11-3', 'A 11-4', 'A 11-5', 'A 11-6', 'A 11-7', 'A 11-8', 'A 11-9', 'A 11-10']
 #selector.reports_to_run = ['D 12-1', 'D 12-2']
 #selector.reports_to_run = ['D A-1', 'D A-2', 'D A-3', 'D A-4']
 #selector.reports_to_run = ['B']
-selector.reports_to_run = ['A 11-1', 'A 11-2', 'D 11-1', 'D 11-2']
+#selector.reports_to_run = ['A 11-1', 'A 11-2', 'D 11-1', 'D 11-2']
 #complete report list
 #selector.reports_to_run = ['A 3-1', 'A 3-2', 'A 4-1', 'A 4-2', 'A 4-3', 'A 4-4', 'A 4-5', 'A 4-6', 'A 4-7', 'A 5-1', 'A 5-2', 'A 5-3', 'A 5-4', 'A 5-5', 'A 5-7', 'A 7-1', 'A 7-2', 'A 7-3', 'A 7-4', 'A 7-5', 'A 7-6', 'A 7-7', 'A 8-1', 'A 8-2', 'A 8-3', 'A 8-4', 'A 8-5', 'A 8-6', 'A 8-7', 'A 9', 'A 11-1', 'A 11-2', 'A 11-3', 'A 11-4', 'A 11-5', 'A 11-6', 'A 11-7', 'A 11-8', 'A 11-9', 'A 11-10', 'A 12-1', 'A 12-2', 'A A-1', 'A A-2', 'A A-3', 'A A-4', 'A B'] #this needs to be changed to read from the input file
 #selector.reports_to_run = ['D 3-1', 'D 3-2', 'D 4-1', 'D 4-2', 'D 4-3', 'D 4-4', 'D 4-5', 'D 4-6', 'D 5-1', 'D 5-2', 'D 5-3', 'D 5-4', 'D 5-5', 'D 7-1', 'D 7-2', 'D 7-3', 'D 7-4', 'D 7-5', 'D 7-6', 'D 8-1', 'D 8-2', 'D 8-3', 'D 8-4', 'D 8-5', 'D 8-6',  'D 11-1', 'D 11-2', 'D 11-3', 'D 11-4', 'D 11-5', 'D 11-6', 'D 11-7', 'D 11-8', 'D 11-9', 'D 11-10', 'D 12-1', 'D 12-2', 'D A-1', 'D A-2', 'D A-3', 'D A-4', 'D B'] #this needs to be changed to read from the input file
+#selector.reports_to_run = ['D 3-1', 'D 3-2', 'D 4-1', 'D 4-2', 'D 4-3', 'D 4-4', 'D 4-5', 'D 4-6', 'D 5-1', 'D 5-2', 'D 5-3', 'D 5-4', 'D 5-5', 'D 7-1', 'D 7-2', 'D 7-3', 'D 7-4', 'D 7-5', 'D 7-6', 'D 8-1', 'D 8-2', 'D 8-3', 'D 8-4', 'D 8-5', 'D 8-6', 'D 11-2', 'D 11-3', 'D 11-4', 'D 11-5', 'D 11-6', 'D 11-7', 'D 11-8', 'D 11-9', 'D 11-10', 'D 12-1', 'D 12-2', 'D A-1', 'D A-2', 'D A-3', 'D A-4', 'D B'] #this needs to be changed to read from the input file
 #selector.reports_to_run = ['D 11-1']
 for i in range(0, len(selector.reports_to_run)):
 	selector.report_list[selector.reports_to_run[i]] = AL_MSAs#['33660']
