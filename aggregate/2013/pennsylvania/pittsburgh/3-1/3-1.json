@@ -1,0 +1,1546 @@
+{
+    "table": "3-1", 
+    "type": "Aggregate", 
+    "desc": "Loans sold, by characteristics of borrower and census tract in which property is located and by type of purchaser (includes originations and purchased loans)", 
+    "year": "2013", 
+    "report-date": "05/04/2015", 
+    "msa": {
+        "id": "38300", 
+        "name": "Pittsburgh", 
+        "state": "PA", 
+        "state_name": "Pennsylvania"
+    }, 
+    "borrowercharacteristics": [
+        {
+            "characteristic": "Race", 
+            "races": [
+                {
+                    "race": "American Indian/Alaska Native", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 27, 
+                            "value": 4556
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 12, 
+                            "value": 1874
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 9, 
+                            "value": 1457
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 1, 
+                            "value": 84
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 9, 
+                            "value": 1592
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 1, 
+                            "value": 171
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 2, 
+                            "value": 297
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 13, 
+                            "value": 3497
+                        }
+                    ]
+                }, 
+                {
+                    "race": "Asian", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 327, 
+                            "value": 65814
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 57, 
+                            "value": 10088
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 203, 
+                            "value": 43679
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 2, 
+                            "value": 326
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 106, 
+                            "value": 23275
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 67, 
+                            "value": 15327
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 23, 
+                            "value": 4139
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 104, 
+                            "value": 25406
+                        }
+                    ]
+                }, 
+                {
+                    "race": "Black or African American", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 202, 
+                            "value": 24722
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 274, 
+                            "value": 33098
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 82, 
+                            "value": 12471
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 12, 
+                            "value": 2514
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 97, 
+                            "value": 12048
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 65, 
+                            "value": 6289
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 23, 
+                            "value": 2180
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 125, 
+                            "value": 15292
+                        }
+                    ]
+                }, 
+                {
+                    "race": "Native Hawaiian or Other Pacific Islander", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 8, 
+                            "value": 1787
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 1, 
+                            "value": 124
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 6, 
+                            "value": 1539
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 2, 
+                            "value": 528
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 1, 
+                            "value": 290
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 4, 
+                            "value": 495
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 3, 
+                            "value": 720
+                        }
+                    ]
+                }, 
+                {
+                    "race": "White", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 11771, 
+                            "value": 1876688
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 8303, 
+                            "value": 1148975
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 6870, 
+                            "value": 1156011
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 565, 
+                            "value": 93434
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 5510, 
+                            "value": 906353
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 2168, 
+                            "value": 315356
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 1091, 
+                            "value": 133807
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 3566, 
+                            "value": 595375
+                        }
+                    ]
+                }, 
+                {
+                    "race": "2 or more minority races", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 4, 
+                            "value": 811
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 1, 
+                            "value": 349
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 1, 
+                            "value": 177
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 0, 
+                            "value": 0
+                        }
+                    ]
+                }, 
+                {
+                    "race": "Joint (White/Minority Race)", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 107, 
+                            "value": 20672
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 81, 
+                            "value": 13008
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 73, 
+                            "value": 13262
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 4, 
+                            "value": 485
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 54, 
+                            "value": 12024
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 15, 
+                            "value": 2878
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 17, 
+                            "value": 1860
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 20, 
+                            "value": 3815
+                        }
+                    ]
+                }, 
+                {
+                    "race": "Race Not Available", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 2648, 
+                            "value": 415768
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 1704, 
+                            "value": 2244380
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 2166, 
+                            "value": 352534
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 30, 
+                            "value": 9827
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 318, 
+                            "value": 71852
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 203, 
+                            "value": 27285
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 166, 
+                            "value": 75843
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 197, 
+                            "value": 45066
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "characteristic": "Ethnicity", 
+            "ethnicities": [
+                {
+                    "ethnicity": "Hispanic or Latino", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 89, 
+                            "value": 15857
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 73, 
+                            "value": 10956
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 43, 
+                            "value": 7824
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 2, 
+                            "value": 682
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 37, 
+                            "value": 6010
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 12, 
+                            "value": 1880
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 7, 
+                            "value": 906
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 32, 
+                            "value": 6637
+                        }
+                    ]
+                }, 
+                {
+                    "ethnicity": "Not Hispanic or Latino", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 12301, 
+                            "value": 1966750
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 8637, 
+                            "value": 1189132
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 7168, 
+                            "value": 1214226
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 576, 
+                            "value": 94645
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 5718, 
+                            "value": 947208
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 2297, 
+                            "value": 335546
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 1114, 
+                            "value": 138058
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 3786, 
+                            "value": 634790
+                        }
+                    ]
+                }, 
+                {
+                    "ethnicity": "Joint (Hispanic or Latino/Not Hispanic or Latino)", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 80, 
+                            "value": 13258
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 51, 
+                            "value": 9391
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 53, 
+                            "value": 9787
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 1, 
+                            "value": 118
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 41, 
+                            "value": 8494
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 11, 
+                            "value": 2436
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 11, 
+                            "value": 1244
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 18, 
+                            "value": 3911
+                        }
+                    ]
+                }, 
+                {
+                    "ethnicity": "Ethnicity Not Available", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 2624, 
+                            "value": 414953
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 1672, 
+                            "value": 2242417
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 2146, 
+                            "value": 349293
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 35, 
+                            "value": 11225
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 300, 
+                            "value": 65960
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 200, 
+                            "value": 27734
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 194, 
+                            "value": 78413
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 192, 
+                            "value": 43833
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "characteristic": "Minority Status", 
+            "minoritystatuses": [
+                {
+                    "minoritystatus": "White Non-Hispanic", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 11517, 
+                            "value": 1832980
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 8126, 
+                            "value": 1120524
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 6727, 
+                            "value": 1129311
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 553, 
+                            "value": 89867
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 5418, 
+                            "value": 890667
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 2141, 
+                            "value": 309748
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 1039, 
+                            "value": 128488
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 3519, 
+                            "value": 585595
+                        }
+                    ]
+                }, 
+                {
+                    "minoritystatus": "Others, Including Hispanic", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 830, 
+                            "value": 144877
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 539, 
+                            "value": 77277
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 458, 
+                            "value": 88268
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 22, 
+                            "value": 4209
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 339, 
+                            "value": 62615
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 171, 
+                            "value": 29134
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 85, 
+                            "value": 10891
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 311, 
+                            "value": 58530
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "characteristic": "Applicant Income", 
+            "applicantincomes": [
+                {
+                    "applicantincome": "Less than 50% of MSA/MD median", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 874, 
+                            "value": 67286
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 838, 
+                            "value": 66114
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 446, 
+                            "value": 36111
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 44, 
+                            "value": 4068
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 472, 
+                            "value": 36923
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 196, 
+                            "value": 13224
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 119, 
+                            "value": 7934
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 331, 
+                            "value": 24742
+                        }
+                    ]
+                }, 
+                {
+                    "applicantincome": "50-79% of MSA/MD median", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 2350, 
+                            "value": 233887
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 2441, 
+                            "value": 261347
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 1262, 
+                            "value": 128410
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 116, 
+                            "value": 12275
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 1375, 
+                            "value": 147578
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 540, 
+                            "value": 52104
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 199, 
+                            "value": 15525
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 955, 
+                            "value": 101903
+                        }
+                    ]
+                }, 
+                {
+                    "applicantincome": "80-99% of MSA/MD median", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 1768, 
+                            "value": 210041
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 1382, 
+                            "value": 183756
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 975, 
+                            "value": 119164
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 101, 
+                            "value": 12869
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 867, 
+                            "value": 113764
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 360, 
+                            "value": 39593
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 156, 
+                            "value": 12920
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 526, 
+                            "value": 69130
+                        }
+                    ]
+                }, 
+                {
+                    "applicantincome": "100-119% of MSA/MD median", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 1684, 
+                            "value": 229927
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 1020, 
+                            "value": 156317
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 939, 
+                            "value": 130923
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 81, 
+                            "value": 11603
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 645, 
+                            "value": 97147
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 289, 
+                            "value": 38354
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 138, 
+                            "value": 13896
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 429, 
+                            "value": 69409
+                        }
+                    ]
+                }, 
+                {
+                    "applicantincome": "120% or more of MSA/MD median", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 7817, 
+                            "value": 1546059
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 2198, 
+                            "value": 429931
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 4820, 
+                            "value": 984203
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 271, 
+                            "value": 65716
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 2623, 
+                            "value": 594378
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 1042, 
+                            "value": 209913
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 687, 
+                            "value": 109743
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 1665, 
+                            "value": 391909
+                        }
+                    ]
+                }, 
+                {
+                    "applicantincome": "Income Not Available", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 601, 
+                            "value": 123618
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 2554, 
+                            "value": 2354431
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 968, 
+                            "value": 182319
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 1, 
+                            "value": 139
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 114, 
+                            "value": 37882
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 93, 
+                            "value": 14408
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 27, 
+                            "value": 58603
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 122, 
+                            "value": 32078
+                        }
+                    ]
+                }
+            ]
+        }
+    ], 
+    "censuscharacteristics": [
+        {
+            "characteristic": "Racial/Ethnic Composition", 
+            "tractpctminorities": [
+                {
+                    "tractpctminority": "Less than 10% minority", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 11587, 
+                            "value": 1908632
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 7858, 
+                            "value": 2635196
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 7368, 
+                            "value": 1243258
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 472, 
+                            "value": 83866
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 4618, 
+                            "value": 782483
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 1897, 
+                            "value": 289755
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 980, 
+                            "value": 163516
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 3053, 
+                            "value": 545337
+                        }
+                    ]
+                }, 
+                {
+                    "tractpctminority": "10-19% minority", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 2277, 
+                            "value": 348317
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 1614, 
+                            "value": 474027
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 1390, 
+                            "value": 235653
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 101, 
+                            "value": 16888
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 970, 
+                            "value": 155286
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 422, 
+                            "value": 57503
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 204, 
+                            "value": 33251
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 617, 
+                            "value": 96374
+                        }
+                    ]
+                }, 
+                {
+                    "tractpctminority": "20-49% minority", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 1043, 
+                            "value": 136247
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 783, 
+                            "value": 185514
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 566, 
+                            "value": 93340
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 35, 
+                            "value": 5330
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 441, 
+                            "value": 81389
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 159, 
+                            "value": 16242
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 116, 
+                            "value": 20449
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 291, 
+                            "value": 38001
+                        }
+                    ]
+                }, 
+                {
+                    "tractpctminority": "50-79% minority", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 146, 
+                            "value": 13489
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 148, 
+                            "value": 154175
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 69, 
+                            "value": 6970
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 4, 
+                            "value": 433
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 53, 
+                            "value": 6883
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 32, 
+                            "value": 3146
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 26, 
+                            "value": 1405
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 49, 
+                            "value": 8086
+                        }
+                    ]
+                }, 
+                {
+                    "tractpctminority": "80-100% minority", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 41, 
+                            "value": 4133
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 30, 
+                            "value": 2984
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 17, 
+                            "value": 1909
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 2, 
+                            "value": 153
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 14, 
+                            "value": 1631
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 10, 
+                            "value": 950
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 18, 
+                            "value": 1373
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "characteristic": "Income", 
+            "incomelevels": [
+                {
+                    "incomelevel": "Low income", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 112, 
+                            "value": 12503
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 94, 
+                            "value": 9254
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 50, 
+                            "value": 15557
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 6, 
+                            "value": 527
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 48, 
+                            "value": 5893
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 23, 
+                            "value": 2066
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 11, 
+                            "value": 7929
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 38, 
+                            "value": 4526
+                        }
+                    ]
+                }, 
+                {
+                    "incomelevel": "Moderate income", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 1271, 
+                            "value": 120143
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 1436, 
+                            "value": 529597
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 656, 
+                            "value": 66435
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 79, 
+                            "value": 8565
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 676, 
+                            "value": 68467
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 362, 
+                            "value": 30357
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 135, 
+                            "value": 9730
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 360, 
+                            "value": 37814
+                        }
+                    ]
+                }, 
+                {
+                    "incomelevel": "Middle income", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 6289, 
+                            "value": 836731
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 5788, 
+                            "value": 2179279
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 3763, 
+                            "value": 505288
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 289, 
+                            "value": 37849
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 2691, 
+                            "value": 362679
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 1167, 
+                            "value": 139142
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 589, 
+                            "value": 57709
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 1827, 
+                            "value": 258785
+                        }
+                    ]
+                }, 
+                {
+                    "incomelevel": "Upper income", 
+                    "purchasers": [
+                        {
+                            "name": "Fannie Mae", 
+                            "count": 7421, 
+                            "value": 1441024
+                        }, 
+                        {
+                            "name": "Ginnie Mae", 
+                            "count": 3115, 
+                            "value": 733766
+                        }, 
+                        {
+                            "name": "Freddie Mac", 
+                            "count": 4941, 
+                            "value": 993850
+                        }, 
+                        {
+                            "name": "Farmer Mac", 
+                            "count": 0, 
+                            "value": 0
+                        }, 
+                        {
+                            "name": "Private Securitization", 
+                            "count": 238, 
+                            "value": 59486
+                        }, 
+                        {
+                            "name": "Commercial bank, savings bank or association", 
+                            "count": 2681, 
+                            "value": 590633
+                        }, 
+                        {
+                            "name": "Life insurance co., credit union, finance co.", 
+                            "count": 968, 
+                            "value": 196031
+                        }, 
+                        {
+                            "name": "Affiliate institution", 
+                            "count": 591, 
+                            "value": 143253
+                        }, 
+                        {
+                            "name": "Other", 
+                            "count": 1802, 
+                            "value": 387629
+                        }
+                    ]
+                }
+            ]
+        }
+    ], 
+    "total": {
+        "purchasers": [
+            {
+                "name": "Fannie Mae", 
+                "count": 15094, 
+                "value": 2410818
+            }, 
+            {
+                "name": "Ginnie Mae", 
+                "count": 10433, 
+                "value": 3451896
+            }, 
+            {
+                "name": "Freddie Mac", 
+                "count": 9410, 
+                "value": 1581130
+            }, 
+            {
+                "name": "Farmer Mac", 
+                "count": 0, 
+                "value": 0
+            }, 
+            {
+                "name": "Private Securitization", 
+                "count": 614, 
+                "value": 106670
+            }, 
+            {
+                "name": "Commercial bank, savings bank or association", 
+                "count": 6096, 
+                "value": 1027672
+            }, 
+            {
+                "name": "Life insurance co., credit union, finance co.", 
+                "count": 2520, 
+                "value": 367596
+            }, 
+            {
+                "name": "Affiliate institution", 
+                "count": 1326, 
+                "value": 218621
+            }, 
+            {
+                "name": "Other", 
+                "count": 4028, 
+                "value": 689171
+            }
+        ]
+    }
+}
