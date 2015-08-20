@@ -1,0 +1,77 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Vim swap files #
+##################
+*.swp
+
+# Python #
+#################
+*.pyc
+*.egg-info/
+__pycache__/
+*.py[cod]
+
+# Django #
+#################
+*.egg-info
+.installed.cfg
+
+# Unit test / coverage reports
+#################
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+processing/testing/*
+cover/
+
+# Front-End #
+#############
+node_modules/
+bower_components/
+.grunt/
+
+src/vendor/
+src/index.html
+_site
+
+.sass-cache/
+
+# Virtual Environment#
+hmda-viz-prototype/
+
+
+# Processing#
+#############
+processing/processing_log.txt
+processing/old_files
+
+# SQL#
+SQL/old
+SQL/data
+
+
+# for now remove aggregate/2012 and /2013, except 2013/alabama #
+aggregate/*
+!aggregate/2013
+aggregate/2013/*
+!aggregate/2013/alabama
+disclosure/*
+!disclosure/2013
+disclosure/2013/*
+disclosure/2013/wells_fargo_bank_na
+
+
+
+
+
+
