@@ -4,6 +4,7 @@ import psycopg2.extras
 class connect_DB(object): #connects to the SQL database
     #this is currently hosted locally
     def connect(self):
+
        # with open('/Users/roellk/Desktop/python/credentials.txt', 'r') as f: #read in credentials file
          #   credentials = f.read()
         #cred_list = credentials.split(',')
