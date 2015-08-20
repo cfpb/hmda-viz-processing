@@ -1,4 +1,0 @@
-#! /bin/bash
-psql -h 192.168.59.103 -d hmda
-psql -d hmda -1 -f cbsa2010.sql;
-psql -d hmda -f mil2013.sql;
